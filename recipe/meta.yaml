@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set name = "knit" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{name}}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/k/{{name}}/{{name}}-{{ version }}.tar.gz
-  sha256: 3d847be729bd8f25bca7da993ecea44600ac31b90a553e03c14da575a0add004
+  sha256: 0086828db168e984f8fc0d8e44de8f656dcbfc859b804b07042b8e78fb66d408
   
 build:
   number: 0
@@ -22,7 +22,6 @@ requirements:
         - openjdk
     run:
         - python
-        - lxml
         - requests
         - py4j
 
