@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set name = "knit" %}
 
 package:
@@ -8,8 +8,8 @@ package:
 source:
   fn: {{name}}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/k/{{name}}/{{name}}-{{ version }}.tar.gz
-  sha256: 0086828db168e984f8fc0d8e44de8f656dcbfc859b804b07042b8e78fb66d408
-  
+  sha256: f94193d93bc785c2603c110cde98a2bb5c89b9124d6d9e9bf0cd9be680b9bbc2
+
 build:
   number: 0
   skip: True  # [not linux]
@@ -32,11 +32,12 @@ test:
 about:
   home: https://github.com/dask/knit
   license: BSD 3-Clause
-  license-family: BSD
+  license_family: BSD
   license_file: LICENSE
   summary: Python interface YARN
 
 extra:
   recipe-maintainers:
-    - quasiben 
+    - quasiben
     - martindurant
+    - jcrist
