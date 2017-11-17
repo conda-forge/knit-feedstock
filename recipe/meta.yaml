@@ -18,6 +18,8 @@ requirements:
     build:
         - python
         - setuptools
+        - maven
+        - openjdk
     run:
         - python
         - requests
