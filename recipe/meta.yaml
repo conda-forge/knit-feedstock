@@ -2,16 +2,16 @@
 {% set name = "knit" %}
 
 package:
-    name: {{name}}
-    version: {{version}}
+    name: {{ name }}
+    version: {{ version }}
 
 source:
-  fn: {{name}}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/k/{{name}}/{{name}}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/k/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: f94193d93bc785c2603c110cde98a2bb5c89b9124d6d9e9bf0cd9be680b9bbc2
 
 build:
-  number: 1000
+  number: 1001
   skip: True  # [not linux]
 
 requirements:
