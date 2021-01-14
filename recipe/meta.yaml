@@ -15,7 +15,7 @@ build:
   skip: True  # [not linux]
 
 requirements:
-    build:
+    host:
         - python
         - setuptools
         - maven
