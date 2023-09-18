@@ -1,11 +1,11 @@
-About knit
-==========
+About knit-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/knit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dask/knit
 
 Package license: BSD 3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/knit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python interface YARN
 
